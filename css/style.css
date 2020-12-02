@@ -1,0 +1,465 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+/* change colours to suit your needs */
+
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+
+/* font */
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+/* ここから本体 */
+
+/* 共通 */
+
+body {
+  width: 1540px;
+  margin: auto;
+  background-color: rgba(255, 196, 0, 0.171);
+}
+
+.inner {
+  width: 1110px;
+  background-color: azure;
+  margin: auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  color: #666666;
+  padding-top: 119px;
+}
+
+hr {
+  margin: 0;
+}
+
+.sponsor {
+  height: 350px;
+  padding-top: 28px;
+  text-align: center;
+  font-size: 16px;
+  line-height: 1.6rem;
+  margin-bottom: 1rem;
+}
+
+/* top */
+
+.top {
+  height: 1325px;
+}
+
+.top_visual {
+  height: 887px;
+  background: url(../images/main-img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* top_title */
+
+.top_title {
+  width: 100%;
+  display: inline-block;
+  margin-top: 60px;
+  background: rgba(255, 255, 255, .8);
+  font-size: 16px;
+  line-height: 26px;
+  color: #666;
+}
+
+.title {
+  display: flex;
+  height: 172px;
+  margin-left: 15px;
+}
+
+.title img {
+  width: 344px;
+  height: 77px;
+  margin-top: 56px;
+}
+
+.catch_copy {
+  margin-top: 39px;
+  margin-left: 27px;
+}
+
+.catch_copy h1 {
+  font-size: 40px;
+  font-weight: normal;
+  line-height: 36px;
+  letter-spacing: 5px;
+}
+
+.catch_copy p {
+  letter-spacing: 0.01em;
+  margin-top: 13px;
+}
+
+/* top_box */
+
+.top_box {
+  display: flex;
+  flex-direction: row;
+  margin-top: 430px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+/* top_right top_left共通 */
+
+.top_right, .top_left {
+  height: 174px;
+  border-radius: 5px;
+  padding-left: 5px;
+  padding-top: 18px;
+}
+
+/* top_left */
+
+.top_left {
+  width: 736px;
+  margin-left: 215px;
+  background: #6b90db;
+}
+
+.top_left h2 {
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 13px;
+}
+
+.top_left i {
+  margin-right: 16px;
+}
+
+.Reception_time {
+  display: flex;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.Reception_time_text {
+  color: #6b90db;
+  background: #fff;
+  padding: 10px 55px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+
+.Reception_time_integer {
+  font-size: 24px;
+  margin-left: 18px;
+}
+
+.top_left ul {
+  margin-top: 13px;
+  margin-left: 13px;
+}
+
+.top_left ul li {
+  line-height: 26px;
+}
+
+/* top_right */
+
+.top_right {
+  width: 365px;
+  margin-left: 15px;
+  background: #DB8F81;
+}
+
+.top_right h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.top_right p {
+  font-size: 16px;
+  margin-top: 14px;
+  margin-left: 10px;
+}
+
+.top_right i {
+  margin-right: 16px;
+}
+
+.top_right a p {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 11px 14px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+/* nav */
+
+nav {
+  background: #F1F0F5;
+  height: 90px;
+}
+
+.nav {
+  height: 90px;
+}
+
+.nav img {
+  width: 286px;
+  height: 62px;
+  padding-top: 10px;
+}
+
+.nav ul {
+  margin-left: 553px;
+  margin-top: -38px;
+}
+
+.nav ul li {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+/* 診療案内 */
+
+.medical_information {
+  height: 1012px;
+  /* background: #fff; */
+}
+
+.medical_information_items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+
+.medical_information_item {
+  width: 350px;
+  height: 360px;
+  margin-bottom: 36px;
+}
+
+.medical_information_item img {
+  width: 344px;
+  height: 208px;
+}
+
+h4 {
+  font-size: 20px;
+  margin-top: 19px;
+  margin-bottom: 14px;
+  letter-spacing: 7px;
+}
+
+.medical_information_item p {
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.medical_information_item a {
+  padding: 10px 17px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-left: 122px;
+}
+
+/* 診療ポリシー */
+
+.policy {
+  height: 1943px;
+  background-color: azure;
+}
+
+.policy_items {
+  margin-top: 62px;
+}
+
+.policy_item {
+  display: flex;
+  margin-bottom: 25px;
+}
+
+.policy_item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.policy_image img {
+  width: 630px;
+  height: 419px;
+}
+
+.policy_item h5 {
+  font-size: 28px;
+  font-weight: normal;
+  padding-bottom: 51px;
+  color: #666;
+}
+
+.policy_item span {
+  font-size: 56px;
+  font-family: 'Libre Caslon Text', serif;
+  border-bottom: 5px solid #B2C2E1;
+  padding-bottom: 12px;
+  margin-right: 20px;
+}
+
+.policy_text {
+  line-height: 26px;
+  padding: 17px;
+}
+
+/* 医療設備 */
+.equipment_header p {
+  text-align: center;
+  margin-bottom: 70px;
+  line-height: 26px;
+  margin-top: 35px;
+}
+
+.equipment_item {
+  display: flex;
+}
+
+.equipment_item:nth-child(even) {
+  flex-direction: row-reverse;
+}
+
+.equipment_item {
+  align-items: center;
+}
+
+.equipment_item img {
+  width: 292px;
+  border-radius: 50%;
+}
+
+.equipment_item_text h6 {
+  font-size: 28px;
+  color: #666;
+  padding-bottom: 16px;
+  margin-top: -80px;
+  border-bottom: #B2C2E1 solid  2px;
+}
+
+.equipment_item_text1 h6 {
+  padding-right: 10px;
+  padding-left: 40px; 
+  margin-left: -15px;
+}
+
+.equipment_item_text2 h6 {
+  font-size: 28px;
+  color: #666; 
+  padding-bottom: 16px;
+  padding-right: 10px;
+  padding-left: 38px;
+  margin-right: -15px;
+}
+
+.equipment_item_text p {
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 16px;
+  padding-left: 38px;
+}
